@@ -61,7 +61,7 @@ public class Main {
         } else {
             System.out.println("Вы непонятно что купили =(");
         }
-
+        1
 
     }
 }
