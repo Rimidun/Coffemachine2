@@ -25,10 +25,10 @@ public class Main {
         int[] Pricemachine = {10, 20, 25, 35, 40, 20, 60, 80};
         String[] Namemachine = {"Вода", "Чай", "Сок", "Кофе", "Капучино", "Американо", "Латте", "Фрэш"};
 
-        for(int i = 0; i < 8; i++){
-        if(Pricemachine[i] <= mymoney){
-            System.out.println("Вы можете купить " + Namemachine[i]);
-        }
+        for (int i = 0; i < 8; i++) {
+            if (Pricemachine[i] <= mymoney) {
+                System.out.println("Вы можете купить " + Namemachine[i]);
+            }
 
         }
         System.out.println("Выберите покупку от 1 до 8");
@@ -37,53 +37,30 @@ public class Main {
         if (x == 1) {
             sleep(3000);
             System.out.println("Вы купили Воду");
-        }
-
-            else if (x == 2) {
+        } else if (x == 2) {
             sleep(3000);
             System.out.println("Вы купили Чай");
-        }
-        else if (x == 3) {
+        } else if (x == 3) {
             sleep(3000);
             System.out.println("Вы купили Сок");
-        }
-        else if (x == 4) {
+        } else if (x == 4) {
             sleep(3000);
             System.out.println("Вы купили Кофе");
-        }
-        else if (x == 5) {
+        } else if (x == 5) {
             sleep(3000);
             System.out.println("Вы купили Капучино");
-        }
-        else if (x == 6) {
+        } else if (x == 6) {
             sleep(3000);
             System.out.println("Вы купили Американо");
-        }
-        else if (x == 7) {
+        } else if (x == 7) {
             sleep(3000);
             System.out.println("Вы купили Латтэ");
-        }
-        else if (x == 8) {
+        } else if (x == 8) {
             sleep(3000);
             System.out.println("Вы купили Американо");
-        }
-
-
-
-        else{
+        } else {
             System.out.println("Вы непонятно что купили =(");
         }
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
