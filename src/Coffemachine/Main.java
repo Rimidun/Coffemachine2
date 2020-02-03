@@ -34,34 +34,34 @@ public class Main {
         System.out.println("Выберите покупку от 1 до 8");
         int x = scanner.nextInt();
 
-        if (x == 1) {
-            sleep(3000);
-            System.out.println("Вы купили Воду");
-        } else if (x == 2) {
-            sleep(3000);
-            System.out.println("Вы купили Чай");
-        } else if (x == 3) {
-            sleep(3000);
-            System.out.println("Вы купили Сок");
-        } else if (x == 4) {
-            sleep(3000);
-            System.out.println("Вы купили Кофе");
-        } else if (x == 5) {
-            sleep(3000);
-            System.out.println("Вы купили Капучино");
-        } else if (x == 6) {
-            sleep(3000);
-            System.out.println("Вы купили Американо");
-        } else if (x == 7) {
-            sleep(3000);
-            System.out.println("Вы купили Латтэ");
-        } else if (x == 8) {
-            sleep(3000);
-            System.out.println("Вы купили Американо");
-        } else {
-            System.out.println("Вы непонятно что купили =(");
-        }
-        1
+//        if (x == 1) {
+//            sleep(3000);
+//            System.out.println("Вы купили Воду");
+//        } else if (x == 2) {
+//            sleep(3000);
+//            System.out.println("Вы купили Чай");
+//        } else if (x == 3) {
+//            sleep(3000);
+//            System.out.println("Вы купили Сок");
+//        } else if (x == 4) {
+//            sleep(3000);
+//            System.out.println("Вы купили Кофе");
+//        } else if (x == 5) {
+//            sleep(3000);
+//            System.out.println("Вы купили Капучино");
+//        } else if (x == 6) {
+//            sleep(3000);
+//            System.out.println("Вы купили Американо");
+//        } else if (x == 7) {
+//            sleep(3000);
+//            System.out.println("Вы купили Латтэ");
+//        } else if (x == 8) {
+//            sleep(3000);
+//            System.out.println("Вы купили Американо");
+//        } else {
+//            System.out.println("Вы непонятно что купили =(");
+//        }
+
 
     }
 }
